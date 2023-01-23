@@ -7,7 +7,7 @@
     <div class="row">
         <div class="col-lg-5">
             <!-- Button Tambah-->
-            <button type="button" class="btn btn-primary tambahData" data-bs-toggle="modal" data-bs-target="#forminputmhs">
+            <button type="button" class="btn btn-primary tambahData mb-2" data-bs-toggle="modal" data-bs-target="#forminputmhs">
             Tambah Data Mahasiswa
             </button>
             </div>

@@ -66,10 +66,12 @@
         <span class="input-group-text">Email</span>
         <input type="text" class="form-control" id="email" name="email" aria-label="email" aria-describedby="basic-addon1">
         </div>
-        <div class="input-group mb-3">
-        <span class="input-group-text">Prodi</span>
-        <input type="text" class="form-control" id="prodi" name="prodi" aria-label="prodi" aria-describedby="basic-addon1">
-        </div>
+        <select class="form-select" id="prodi" name="prodi" aria-label="prodi">Program Studi
+        <option selected></option>
+            <option value="Teknik Informatika">Teknik Informatika</option>
+            <option value="Teknik Sipil">Teknik Sipil</option>
+            <option value="Teknik Elektro">Teknik Elektro</option>
+        </select>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
